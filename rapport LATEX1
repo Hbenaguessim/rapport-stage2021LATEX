@@ -54,15 +54,9 @@
 				\includegraphics[width=20cm]{images/yir.png}
 			\end{center}
 		\end{figure}
-		\textbf{\emph{Préparé par: BENAGUESSIM Hajar}}
-		\raggedright{\rule{0.7\linewidth}{2pt}}\\
-		\textbf{\emph{
-				Membres de Jury:\\
-				\begin{itemize}
-					\item[•] ****
-					\item[•] ****
-				\end{itemize}
-			}}
+		
+		\raggedright{\textbf{\emph{Préparé par: BENAGUESSIM Hajar}}}\\
+		
 		\mbox{}\vfill
 		\begin{center}
 			\rule{0.9\linewidth}{1pt}\\
@@ -211,8 +205,12 @@
 	\chapter*{\centering Liste des abréviations}
 	\addcontentsline{toc}{chapter}{Liste des abréviations}
 	\begin{itemize}
+	\item[•] \textbf{DGCT:} La direction générale des collectivités territoriales.
 		\item[•] \textbf{CDC:} Cahier des charges.
 		\item[•] \textbf{MCD:} Modèle conceptuel des données.
+		\item[•] \textbf{DCU:} Diagramme des cas d'utilisation.
+		\item[•] \textbf{MCT:} Modèle conceptuel des traitements.
+		\item[•] \textbf{UML:} Langage de modélisation unifié.
 	\end{itemize}
 
 	\newpage
@@ -1184,7 +1182,7 @@ Les capacités de base de données d'Excel sont très puissantes. En fait, Excel
 	ajouter un avenant, etc\dots
 	\begin{figure}[H]
 		\begin{center}
-			\fbox{\includegraphics[scale=0.42]{images/UseCasesGestion-Suivi.png}}
+			\fbox{\includegraphics[scale=0.42]{images/Untitled Diagram-UseCasesGestion_Suivi.drawio.png}}
 			\caption{DCU:Gestion et suivi des contrats}
 		\end{center}
 	\end{figure}
@@ -1482,20 +1480,23 @@ Une fois on clique sur l'icône modifier on se redirige vers cette page pour mod
 Après avoir cliqué sur le bouton 'ajouter un délégant' cette pop-up s'affiche, on tape le nom du délégant puis on confirme l'ajout.
 
 \section{Récapitulatif}
+ Dans ce chapitre, j'ai présenté les interfaces réalisées dans cette application,
+	Aprés avoir spécifié et s'adapter avec les outils de travail, j'ai commencé l'implémentation de
+	l’application et j'ai pu présenter les captures d’écran précédentes.
 
 \chapter{Conclusion et perspectives}
 
 L’objectif de ce rapport et de présenter d’une manière claire le fonctionnement de l'application
 réalisée au cours de mon stage d’été. En premier lieu j'ai commencé par
-une étude des de l’existant avec une critique afin d'éviter les erreurs au cours du
+une étude  de l’existant avec une critique afin d'éviter les erreurs au cours du
 projet.
 Cette étude m'a permis de concevoir les besoins fonctionnels et non fonctionnels, puis passer
 à l’étape de conception, qui, dans laquelle j'ai schématiser mon travail sous forme des
-diagrammes qu'ont facilité la compréhension et qu'ont mieux décrit l'application.
+diagrammes qui ont facilité la compréhension et qui ont mieux décrit l'application.
 Enfin j'ai réalisé l'application tout en respectant les exigences soulignées lors de
 la conception. Certes, deux mois ne sont pas suffisants pour compléter un grand projet comme ceci,
-pourtant la partie la plus difficile et la plus complexe a été réaliser et  a tenu l'appréciation de mon
-encadrant. En effet, la partie reporting, que j'ai n'est pas pu terminé, a fini par la création d'un
+pourtant la partie la plus difficile et la plus complexe est de  réaliser et  tenir l'appréciation de mon
+encadrant. En effet, la partie reporting, que j'ai n'est pas pu terminé,s'est  fini par la création d'un
 modèle pour le traitement des données dans PowerBI:
 \begin{figure}[H]
 	\begin{center}
@@ -1509,7 +1510,7 @@ stage a été plein d’intérêt et d'apprentissage. D'ailleurs, j'ai pu travai
 En addition, j'ai pu vraiment découvrir le déroulement de la vie professionnelle à travers des réunions
 avec mon encadrant et les autres membres de l’entreprise.
 J'ai appris comment une équipe travaille pour réussir un projet. Ceci m'a donner une
-idée sur les situations que je vais confronter au futur proche en tant qu'ingénieur en génie logiciel.
+idée sur les situations que je vais confronter au futur proche.
 
 \newpage
 
@@ -1519,11 +1520,12 @@ idée sur les situations que je vais confronter au futur proche en tant qu'ingé
 \chapter{Références}
 
 \begin{itemize}
-\item[•] \textbf{Rapport en \LaTeX:} \url{https://fr.overleaf.com/9311539545hrsxncbybszt}
+\raggedright{
+\item[•] \textbf{Rapport en \LaTeX:} \url{https://github.com/Hbenaguessim/rapport-stage2021LATEX/tree/main}
 \item[•] \textbf{Diagrammes réalisés: } \url{https://viewer.diagrams.net/?tags=&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagram.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fabdorah%2Fstage2021%2Fmaster%2Fdiagramms%2FDiagram.drawio}
 \item[•] \textbf{Maquettes du projet:} \url{https://whimsical.com/kdi-ux-design-J9PD866564ibwyMBwLHN9N}
 \item[•] \textbf{Décomposition fonctionnelle du projet:} \url{https://whimsical.com/wbs-kpi-9BDZ7oPFWEhvz9qQGoQEdL}
-\item[•] \textbf{Tableau Kanban:} \url{https://trello.com/invite/b/QCUhh5sY/900fa738fc6c66193db04199e1248ae6/suivitransport}
+\item[•] \textbf{Tableau Kanban:} \url{https://trello.com/invite/b/QCUhh5sY/900fa738fc6c66193db04199e1248ae6/suivitransport}}
 
 \end{itemize}
 
@@ -1538,12 +1540,15 @@ idée sur les situations que je vais confronter au futur proche en tant qu'ingé
 \end{itemize}
 \section{Documentations}
 \begin{itemize}
+\raggedright{
 \item[•] \textbf{Exemple ECan:}\url{https://powerapps.microsoft.com/fr-fr/blog/environment-canterbury-speeds-up-outcome-tracking-with-the-power-platform/}
 	\item[•] \textbf{ Documentations Microsoft PowerApps:}\url{https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fmaker%2Fcanvas-apps%2F&data=04%7C01%7C%7Ce65e3af41e9e410f992a08d95cc734ff%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637642832931864679%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ml2KrrKcMUPLsWsH8d7ZDjdeXtLx9S985dY5hgI1RJI%3D&reserved=0}
 	\item[•]\textbf{ Documentations Microsoft PowerApps:} \url{https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fmaker%2Fcanvas-apps%2Fget-started-create-from-data&data=04%7C01%7C%7Ce65e3af41e9e410f992a08d95cc734ff%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637642832931869656%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=TYbRoGvzIzwO4PThp3yUtywRr76KLIIUmJqSSvyN8MY%3D&reserved=0}
 	\item[•] \textbf{ Documentations Microsoft PowerApps:}\url{https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fmaker%2Fcanvas-apps%2Fadd-form&data=04%7C01%7C%7Ce65e3af41e9e410f992a08d95cc734ff%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637642832931874635%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=S8RfTDyJ%2F3ZvtP4lwqBSSMAWrbXd85oLdXiEkFO6LLQ%3D&reserved=0}{\textit{Troisième lien de la documentations Microsoft PowerApps}}
-	\item[•] \textbf{ Documentations Microsoft PowerApps:}\url{https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fmaker%2Fcanvas-apps%2Fdependent-drop-down-lists&data=04%7C01%7C%7Ce65e3af41e9e410f992a08d95cc734ff%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637642832931879615%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=x8uoZpDPhhwkV%2FJhJFVIo4NZwVNOUULsb9etpMMT%2Bio%3D&reserved=0}{\textit{Quatrième lien de la documentations Microsoft PowerApps}}
+	\item[•] \textbf{ Documentations Microsoft PowerApps:}\url{https://emea01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fmaker%2Fcanvas-apps%2Fdependent-drop-down-lists&data=04%7C01%7C%7Ce65e3af41e9e410f992a08d95cc734ff%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C637642832931879615%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=x8uoZpDPhhwkV%2FJhJFVIo4NZwVNOUULsb9etpMMT%2Bio%3D&reserved=0}}
 \end{itemize}
 
 
 \end{document}
+
+	
